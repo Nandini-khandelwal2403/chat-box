@@ -1,0 +1,21 @@
+{
+  "name": "chat-box",
+  "version": "1.0.0",
+  "description": "A chat box using web sockets and node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
